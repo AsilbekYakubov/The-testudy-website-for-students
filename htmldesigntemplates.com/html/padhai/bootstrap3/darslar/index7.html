@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+
+    <title>Testudy darslar</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/TE.png">
+
+    <style>
+        td {
+            border: 1px rgb(131, 131, 131) solid;
+            padding: 15px 20px;
+        }
+        
+        input {
+            font-size: 16px;
+            width: 150px;
+            background-color: rgba(0, 0, 255, 0);
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.719);
+            font-family: "Montserrat", sans-serif;
+            padding-left: 40px;
+        }
+        
+        .input11 {
+            font-size: 16px;
+            width: 250px;
+            background-color: rgba(0, 0, 255, 0);
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.719);
+            font-family: "Montserrat", sans-serif;
+            padding-left: 40px;
+        }
+        
+        #i1 {
+            color: rgb(9, 255, 0);
+            display: none;
+        }
+        
+        #i2 {
+            color: rgb(255, 0, 0);
+            display: none;
+        }
+        
+        .salom button {
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            background-color: #58A6FF;
+            position: relative;
+        }
+        
+        .salom {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .salom p {
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        .div h1 {
+            width: 600px;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .main {
+            width: 100%;
+        }
+        
+        .exx>* {
+            /* list-style: number; */
+            margin-bottom: 40px;
+            margin-left: 20px;
+        }
+        
+        @media only screen and (max-width: 1117px) {
+            .lists {
+                margin-bottom: 150px !important;
+            }
+        }
+        
+        @media only screen and (max-width: 1099px) {
+            .lists {
+                margin-bottom: 150px !important;
+            }
+            .media1 {
+                padding-right: 100px !important;
+            }
+            .media2 {
+                padding-right: 300px !important;
+            }
+            .media3 {
+                padding-right: 350px !important;
+            }
+            .media4 {
+                padding-right: 260px !important;
+            }
+            .media5 {
+                padding-right: 220px !important;
+            }
+            .media6 {
+                padding-right: 420px !important;
+            }
+            .media7 {
+                padding-right: 550px !important;
+            }
+        }
+        
+        @media only screen and (max-width: 756px) {
+            .lists {
+                margin-bottom: 150px !important;
+            }
+            .media1 {
+                padding-right: 50px !important;
+            }
+            .media2 {
+                padding-right: 200px !important;
+            }
+            .media3 {
+                padding-right: 300px !important;
+            }
+            .media4 {
+                padding-right: 200px !important;
+            }
+            .media5 {
+                padding-right: 170px !important;
+            }
+            .media6 {
+                padding-right: 370px !important;
+            }
+            .media7 {
+                padding-right: 500px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ploding">
+
+    </div>
+
+    <div class="side">
+        <h1>
+            <img src="./images/my-logo.png" alt="logo image"> TESTUYDY
+        </h1>
+
+        <div class="ada">
+            <a href="./index.html" style="font-size: 15px;"> <i style="font-size: 22px;">1</i> The Present Simple Tense
+            </a>
+            <a href="./index2.html" style="font-size: 15px;"> <i style="font-size: 22px;">2</i> The Present Progressive Tense</a>
+            <a href="./index3.html" style="font-size: 15px;"> <i style="font-size: 22px;">3</i> The Past Simple Tense
+            </a>
+            <a href="./index4.html" style="font-size: 15px;"> <i style="font-size: 22px;">4</i> The Past Progressive Tense
+            </a>
+            <a href="./index5.html" style="font-size: 15px;"> <i style="font-size: 22px;">5</i>The Future Tense
+            </a>
+            <a href="./index6.html" style="font-size: 15px;"> <i style="font-size: 22px;">6</i>The Past Perfect Simple Tense
+            </a>
+            <a href="./index7.html" class="active" style="font-size: 15px;"> <i style="font-size: 22px;">7</i>The Future Perfect Tense
+            </a>
+            <a href="./index8.html" style="font-size: 15px;"> <i style="font-size: 22px;">8</i>The Present Perfect Simple Verb Tense</a>
+            <a href="./index9.html" style="font-size: 15px;"> <i style="font-size: 22px;">9</i>The Past Perfect Progressive Tense</a>
+
+        </div>
+
+
+        <button id="toggleBtn">
+            <i class="fas fa-chevron-right"></i>
+            <i class="fas fa-chevron-left"></i>
+        </button>
+    </div>
+
+    <div class="main">
+        <h1>The Future Perfect Tense</h1>
+        <br>
+        <br>
+        <p>Future perfect simple kelajakda ma'lum bir vaqtga qadar tugallanadigan faoliyatni tushuntirish uchun ishlatiladi. Bunday faoliyat turlarini tavsiflash uchun biz vaqt iboralarini qo'shamiz, masalan, vaqt bo'yicha: by then, by the year 2008, by
+            March 25th to describe these kinds of activities.</p>
+        <br>
+        <br>
+        <br>
+        <p>Future Perfect Tense ni quyidagicha yasashimiz mumkin:</p>
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>will /will not + have + (V3) form of the verb (Past Participle)</th>
+                    <th>Rest of Sentence</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+
+                <tr>
+                    <td data-label="S.No">I / You / We / They He / She / It</td>
+                    <td data-label="Name">will have worked</td>
+                    <td data-label="Age">here for three years by the time the visa needs to be renewed.</td>
+
+
+                </tr>
+
+                <tr>
+                    <td data-label="S.No">I / You / We / They He / She / It</td>
+                    <td data-label="Name">won’t have solved</td>
+                    <td data-label="Age">all the math problems by then.</td>
+
+
+                </tr>
+
+
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <p>Masalan:</p><br>
+        <ul>
+            <li style="margin-bottom: 15px; margin-left: 50px;">By this time next year we <b>will have been married</b> for 30 years. <br>
+            </li>
+            <li style="margin-bottom: 15px; margin-left: 50px;">If all goes well, by June 2012, I <b>will have
+                    finished</b> my university degree. <br></li>
+        </ul>
+
+        <br>
+        <br>
+        <br>
+        <h2>Yes/No Questions – Future Perfect Simple</h2>
+        <br>
+        <br>
+        <p>Ha/Yo‘q savollarini shakllantirish uchun The Future Perfect Tense zamoni qo‘llanilishi: <br> Will/Won’t + Subject + have + V3 (o‘tgan zamon) fe’l shakli. </p>
+        <br>
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Auxiliary Verb</th>
+                    <th>Subject</th>
+                    <th>Verb in V3 (Past Participle)</th>
+                    <th>Rest of Sentence</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+
+                <tr>
+                    <td data-label="Name">Will</td>
+                    <td data-label="S.No" rowspan="2">I / You / We / They He / She / It</td>
+                    <td data-label="Name">have gone</td>
+                    <td data-label="Age">home by then?</td>
+
+
+                </tr>
+
+                <tr>
+                    <td data-label="Name">Won’t</td>
+                    <!-- <td data-label="S.No">I / You / We / They
+                        He / She / It</td> -->
+                    <td data-label="Name">have eaten</td>
+                    <td data-label="Age">dinner by the time I get home?</td>
+
+
+                </tr>
+
+
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <p>Masalan:</p><br>
+        <ul>
+            <li style="margin-bottom: 15px; margin-left: 50px;">Will she have gotten her passport by then? <br>
+            </li>
+            <li style="margin-bottom: 15px; margin-left: 50px;">Won’t you have sent the documents by Thursday?<br></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <h2>Future Perfect Progressive</h2>
+        <br>
+        <p>Future perfect progressive tense allaqachon boshlangan va kelajakda ma'lum bir vaqtda sodir bo'ladigan harakat haqida gapirish uchun ishlatiladi. Faoliyat davom etayotgan vaqtni tasvirlash uchun <b>"30
+                minutes"</b> va <b>"since early morning"</b> kabi vaqt iboralaridan foydalanamiz.</p>
+        <br>
+        <p>
+            Bu zamonda jumla hosil qilishingiz uchun quyidagi jadvalga qarang:
+        </p>
+        <br>
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Time Expression</th>
+                    <th>Subject</th>
+                    <th>have + been + verbing</th>
+                    <th>Rest of Sentence</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+
+                <tr>
+                    <td data-label="Name" rowspan="2">By October 1st,</td>
+                    <td data-label="S.No" rowspan="2">I / You / We / They He / She / It</td>
+                    <td data-label="Name" rowspan="2">will have been travelling</td>
+                    <td data-label="Age" rowspan="2">for two months.</td>
+
+
+                </tr>
+
+
+
+
+            </tbody>
+        </table>
+        <p>Masalan:</p><br>
+        <ul>
+            <li style="margin-bottom: 15px; margin-left: 50px;">By the time you get here, we will have been building the house for a year. <br>
+            </li>
+            <li style="margin-bottom: 15px; margin-left: 50px;">By 2008, Adam will have been selling sports equipment for 10 years.<br></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <h2>Exercises – Future Perfect Simple and Future Perfect Progressive</h2>
+        <br>
+        <br>
+        <br>
+        <p>Mashqlarda o'zingizni sinab ko'ring.</p>
+        <br>
+        <br>
+        <ul class="exx">
+            <li class="lists">
+                <div class="div3 salom" style="flex-wrap: wrap;">
+                    <p id="boo" class="media1" style="padding-right: 18px;"></p>
+                    <button onclick="but()" style="  background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check</button>
+                </div>
+            </li>
+            <li class="lists">
+                <div class="div4 salom" style="flex-wrap: wrap;">
+                    <p id="boo2" class="media2" style="padding-right: 296px;"></p>
+                    <button onclick="but2()" style="  background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check</button>
+                </div>
+            </li>
+            <li class="lists">
+                <div class="div5 salom" style="flex-wrap: wrap;">
+                    <p id="boo3" class="media2" style="padding-right: 310px;"></p>
+                    <button onclick="but3()" style="  background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check</button>
+                </div>
+            </li>
+            <li class="lists">
+                <div class="div6 salom" style="flex-wrap: wrap;">
+                    <p id="boo4" class="media3" style="padding-right: 367px;"></p>
+                    <button onclick="but4()" style="  background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check</button>
+                </div>
+            </li>
+            <li class="lists">
+                <div class="div7 salom" style="flex-wrap: wrap;">
+                    <p id="boo5" class="media1" style="padding-right: 84px;"></p>
+                    <button onclick="but5()" style="  background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check</button>
+                </div>
+            </li>
+            <li class="lists">
+                <div class="div8 salom" style="flex-wrap: wrap;">
+                    <p id="boo6" class="media4" style="padding-right: 229px;"></p>
+                    <button onclick="but6()" style="  background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check</button>
+                </div>
+            </li>
+            <li class="lists">
+                <div class="div9 salom" style="flex-wrap: wrap;">
+                    <p id="boo7" class="media5" style="padding-right: 198px;"></p>
+                    <button onclick="but7()" style="  background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check</button>
+                </div>
+            </li>
+            <li class="lists">
+                <div class="div10 salom" style="flex-wrap: wrap;">
+                    <p id="boo8" class="media6" style="padding-right: 433px;"></p>
+                    <button onclick="but8()" style="  background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check</button>
+                </div>
+            </li>
+            <li class="lists">
+                <div class="div11 salom" style="flex-wrap: wrap;">
+                    <p id="boo9" class="media1" style="padding-right: 119px;"></p>
+                    <button onclick="but9()" style="  background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check</button>
+                </div>
+            </li>
+            <li class="lists">
+                <div class="div12 salom" style="flex-wrap: wrap;">
+                    <p id="boo10" class="media7" style="padding-right: 537px;"></p>
+                    <button onclick="but10()" style="  background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check</button>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    <script>
+        var side = document.querySelector('.side')
+        var toggleBtn = document.getElementById('toggleBtn')
+        toggleBtn.addEventListener('click', () => {
+            side.classList.toggle('closed')
+        })
+    </script>
+    <!-- <script src="./app.js"></script> -->
+    <script>
+        var loader = document.getElementById('ploding');
+        window.addEventListener('load', function() {
+            loader.style.display = 'none'
+        })
+    </script>
+
+
+
+
+    <script>
+        let boo = document.getElementById('boo');
+        boo.innerHTML = `By the time I start my shift, Dr. Frazier ${'<input id="input11" type="text" placeholder="javob">'} for 18 hours straight. (work)`;
+        let input11 = document.getElementById('input11')
+        input11.style.width = "250px"
+
+        function but() {
+            if (input11.value === 'will have been working')
+                boo.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+        let boo2 = document.getElementById('boo2');
+        boo2.innerHTML = `What ${'<input id="input12" type="text" placeholder="javob">'} Arnie ${'<input id="input122" type="text" placeholder="javob">'} over there? (do)`;
+
+        function but2() {
+            if (input12.value === 'is')
+                boo2.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo2.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+
+        function but2() {
+            if (input122.value === 'doing')
+                boo2.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo2.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+        let boo3 = document.getElementById('boo3');
+        boo3.innerHTML = `${'<input id="input13" type="text" placeholder="javob">'} you ${'<input id="input133" type="text" placeholder="javob">'} a big wedding? (plan)`;
+
+        function but3() {
+            if (input13.value === 'Are')
+                boo3.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo3.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+
+        function but3() {
+            if (input133.value === 'planning')
+                boo3.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo3.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+        let boo4 = document.getElementById('boo4');
+        boo4.innerHTML = `Tim is helping you put the lights up,  ${'<input id="input14" type="text" placeholder="javob">'}? `;
+
+        function but4() {
+            if (input14.value === 'isn`t he')
+                boo4.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo4.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+        let boo5 = document.getElementById('boo5');
+        boo5.innerHTML = `The computers ${'<input id="input15" type="text" placeholder="javob">'} finally ${'<input id="input155" type="text" placeholder="javob">'} like they’re supposed to. (run)`;
+
+        function but5() {
+            if (input15.value === 'are')
+                boo5.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo5.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+
+        function but5() {
+            if (input155.value === 'running')
+                boo5.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo5.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+        let boo6 = document.getElementById('boo6');
+        boo6.innerHTML = `${'<input id="input16" type="text" placeholder="javob">'} Ann ${'<input id="input166" type="text" placeholder="javob">'} in from New York tonight? (fly)`;
+
+        function but6() {
+            if (input16.value === 'Is')
+
+                boo6.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            if (input166.value === 'flying')
+                boo6.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo6.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+
+        }
+        let boo7 = document.getElementById('boo7');
+        boo7.innerHTML = ` The customers aren’t getting the price quote this week,  ${'<input id="input17" type="text" placeholder="javob">'}? `;
+
+        function but7() {
+            if (input17.value === 'are they')
+                boo7.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo7.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+        let boo8 = document.getElementById('boo8');
+        boo8.innerHTML = `I  ${'<input id="input18" type="text" placeholder="javob">'}Peter for a drink later. (meet) `;
+
+        function but8() {
+            if (input18.value === 'am meeting')
+                boo8.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo8.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+        let boo9 = document.getElementById('boo9');
+        boo9.innerHTML = `How much money ${'<input id="input19" type="text" placeholder="javob">'} they ${'<input id="input199" type="text" placeholder="javob">'} in the company?(invest)`;
+
+        function but9() {
+            if (input19.value === 'are')
+                boo9.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo9.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+
+        function but9() {
+            if (input199.value === 'investing')
+                boo9.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo9.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+
+        function but9() {
+            if (input19.value === 'are')
+                boo9.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo9.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+        let boo10 = document.getElementById('boo10');
+        boo10.innerHTML = `He  ${'<input id="input20" type="text" placeholder="javob">'}to you. (not lie) `;
+
+        function but10() {
+            if (input20.value === 'isn`t lying')
+                boo10.style.backgroundColor = 'rgba(62, 255, 55, 0.39)';
+            else
+                boo10.style.backgroundColor = 'rgba(255, 61, 61, 0.568)';
+        }
+    </script>
+</body>
+
+</html>

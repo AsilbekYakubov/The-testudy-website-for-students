@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+
+
+    <title>Testudy darslar</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/TE.png">
+
+    <style>
+        td {
+            border: 1px rgb(131, 131, 131) solid;
+            padding: 15px 20px;
+        }
+        
+        input {
+            font-size: 16px;
+            width: 100px;
+            background-color: rgba(0, 0, 255, 0);
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.719);
+            font-family: "Montserrat", sans-serif;
+            padding-left: 0px;
+        }
+        
+        #i1 {
+            color: rgba(62, 255, 55, 0.39);
+            display: none;
+        }
+        
+        #i2 {
+            color: rgba(255, 61, 61, 0.568);
+            display: none;
+        }
+        
+        .salom button {
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            background-color: #58A6FF;
+            position: relative;
+        }
+        
+        .salom {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .salom p {
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        .div h1 {
+            width: 600px;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        @media only screen and (max-width: 943px) {
+            .lists {
+                margin-bottom: 150px !important;
+            }
+        }
+        
+        @media only screen and (max-width: 943px) {
+            .lists {
+                margin-bottom: 150px !important;
+            }
+            .media1 {
+                padding-right: 50%;
+            }
+        }
+        
+        @media only screen and (max-width: 729px) {
+            .lists {
+                margin-bottom: 150px !important;
+            }
+            .media1 {
+                padding-right: 0px !important;
+            }
+            .media2 {
+                padding-right: 50px !important;
+            }
+        }
+        
+        @media only screen and (max-width: 730px) {
+            .lists {
+                margin-bottom: 150px !important;
+            }
+            .media3 {
+                padding-right: 150px !important;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .lists {
+                margin-bottom: 150px !important;
+            }
+            .media2 {
+                padding-right: 150px !important;
+            }
+            .media3 {
+                padding-right: 200px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="ploding">
+
+    </div>
+    <div class="side">
+        <h1>
+            <img src="./images/my-logo.png" alt="logo image"> TESTUYDY
+        </h1>
+
+        <div class="ada">
+            <a href="./index.html" class="active" style="font-size: 15px;"> <i style="font-size: 22px;">1</i> The Present Simple Tense
+            </a>
+            <a href="./index2.html" style="font-size: 15px;"> <i style="font-size: 22px;">2</i> The Present Progressive Tense</a>
+            <a href="./index3.html" style="font-size: 15px;"> <i style="font-size: 22px;">3</i> The Past Simple Tense
+            </a>
+            <a href="./index4.html" style="font-size: 15px;"> <i style="font-size: 22px;">4</i> The Past Progressive Tense
+            </a>
+            <a href="./index5.html" style="font-size: 15px;"> <i style="font-size: 22px;">5</i>The Future Tense
+            </a>
+            <a href="./index6.html" style="font-size: 15px;"> <i style="font-size: 22px;">6</i>The Past Perfect Simple Tense
+            </a>
+            <a href="./index7.html" style="font-size: 15px;"> <i style="font-size: 22px;">7</i>The Future Perfect Tense
+            </a>
+            <a href="./index8.html" style="font-size: 15px;"> <i style="font-size: 22px;">8</i>The Present Perfect Simple Verb Tense</a>
+            <a href="./index9.html" style="font-size: 15px;"> <i style="font-size: 22px;">9</i>The Past Perfect Progressive Tense</a>
+
+        </div>
+
+
+        <button id="toggleBtn">
+            <i class="fas fa-chevron-right"></i>
+            <i class="fas fa-chevron-left"></i>
+        </button>
+    </div>
+
+    <div class="main">
+        <h1>The Present Simple Tense</h1>
+        <p>The Present Simple da 3-shaxs birlikda (he, she, it) fe’lning asos <br> shakliga s, es yoki ies qo‘shiladi.
+        </p>
+        <br>
+        <br>
+        <ul style="margin-left: 40px;">
+            <li style="margin-bottom: 15px;">Oddiy fe'llarga shunchaki s qo'shing - Masalan: travel >travels, <br> give > gives, play >plays</li>
+            <li style="margin-bottom: 15px;">s, ss, sh, ch, x, va o harflari bilan tugaydigan fe’llarga es <br> qo‘shing - Masalan: wash > washes, mix > mixes, go >goes</li>
+            <li style="margin-bottom: 15px;">Fe'llarning undoshdan keyin y harfi bilan tugashi uchun <br> (unli bo'lmagan har qanday harf) y ni i ga o'zgartiring va es qo'shing. <br> Masalan: study > studies, fly > flies
+            </li>
+        </ul>
+        <br>
+        <p>Quyidagi fikrlarni ifodalash uchun hozirgi sodda zamondan <br> foydalanamiz:</p>
+        <br>
+        <br>
+        <ul style="margin-left: 40px;">
+            <li style="margin-bottom: 15px;">Faktlarni yoki umumiy haqiqatlarni bayon qilish</li>
+            <li style="margin-bottom: 15px;">Odatlar yoki urf-odatlarni ifodalash uchun</li>
+            <li style="margin-bottom: 15px;">Kelajakdagi rejalar uchun (ko'pincha dasturlar va jadvallar haqida)</li>
+            <li style="margin-bottom: 15px;">Hazillar va hikoyalar aytib berish yoki real vaqtda sport voqealari <br> haqida xabar berish.</li>
+        </ul>
+        <br>
+        <p>Misol:</p><br>
+        <ul style="margin-left: 40px;">
+            <li style="margin-bottom: 15px;">The sun <b>sets</b> in the west.</li>
+            <li style="margin-bottom: 15px;">We <b>produce</b> lasers for cosmetic surgery.</li>
+            <li style="margin-bottom: 15px;">They <b>move</b> into their new home next week.</li>
+            <li style="margin-bottom: 15px;">So, I <b>go</b> to Mr. D and <b>say</b> “I deserve a better mark in this class”.
+            </li>
+            <li style="margin-bottom: 15px;">Jones <b>stops</b> in mid-court and <b>passes</b> the ball to Schuster.
+            </li>
+        </ul>
+        <br>
+        <br>
+        <h2><big><b>Present Simple ni shakllantirish</b></big></h2>
+        <br>
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Verb</th>
+                    <th>Rest of sentence</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+
+                <tr>
+                    <td data-label="S.No">I / You / We / They</td>
+                    <td data-label="Name">sleep</td>
+                    <td data-label="Age">late on Saturdays</td>
+
+
+                </tr>
+
+                <tr>
+                    <td data-label="S.No">He / She / It</td>
+                    <td data-label="Name">goes</td>
+                    <td data-label="Age">to the beach every weekend</td>
+
+
+                </tr>
+
+
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
+        <h2><big>Present Simple dagi vaqt ifodalari</big></h2>
+        <br>
+        <br>
+        <p>Present simple dagi eng keng tarqalgan vaqt iboralari: usually, always, never, on Wednesdays, every Wednesday, twice a week, once a month, in general, every other day. <br>
+            <br> Time expressions made up of one word are placed between the subject and the verb in positive sentences and questions and between the auxiliary verb and main verb in negative sentences.
+        </p>
+        <br>
+        <br>
+        <ul style="margin-left: 40px;">
+            <li style="margin-bottom: 15px;">I <b>always</b> study hard for exams.</li>
+            <li style="margin-bottom: 15px;">Do you <b>usually</b> speak to him like that? <br>
+                <br> Ikki yoki undan ortiq so'zdan tuzilgan vaqt iboralari gap boshida yoki <br> oxirida va odatda savollarning oxirida joylashtiriladi.
+            </li>
+            <li style="margin-bottom: 15px;">Ben goes to football practice <b>every Tuesday</b>.</li>
+            <li style="margin-bottom: 15px;"><b>In general,</b> I believe that all people can live in peace.</li>
+            <li style="margin-bottom: 15px;">you go to the supermarket <b>every week?</b></li>
+        </ul>
+        <br>
+        <br>
+
+        <h2><big>Negative Sentences in the Present <br> Simple Tense</big></h2>
+        <br>
+        <br>
+        <p>3-shaxs (he, she, it) inkorini qisqartirganda, not in o ni olib tashlang <br> va apostrofni (‘) qo‘shing does not > doesn’t.</p>
+        <br>
+        <br>
+        <p style="margin-bottom: 40px;">Inkor gaplar tuzishda odatda don’t va doesn’t yordamchi fe’llaridan + <br> fe’lning asos shaklini ishlatamiz.</p>
+
+
+
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Auxillery verb</th>
+                    <th>Verb in base form</th>
+                    <th>Rest of sentence</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+                <tr>
+                    <td data-label="S.No">I / You / We / They</td>
+                    <td data-label="Name">don’t (do not)</td>
+                    <td data-label="Age">eat</td>
+                    <td data-label="Age">late at night</td>
+
+                </tr>
+
+                <tr>
+                    <td data-label="S.No">He / She / It</td>
+                    <td data-label="Name">doesn’t (does not)</td>
+                    <td data-label="Age">watch</td>
+                    <td data-label="Age">TV every day</td>
+
+                </tr>
+
+
+            </tbody>
+        </table>
+        <br>
+        <br>
+
+        <h2><big>Yes/No Questions in the Present Simple</big></h2>
+        <br>
+        <p>“Ha” yoki “Yo‘q” bilan javob beradigan savol yaratish uchun savolni Do yoki Does bilan boshlang, so‘ngra egani (harakatni bajaruvchi shaxs yoki narsa) keyin fe’lning asosiy shaklini qo‘shing va shundan keyingina qolganini qo‘shing.</p>
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Auxiliary Verb</th>
+                    <th>Subject</th>
+                    <th>Verb in base form</th>
+                    <th>Rest of sentence</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+                <tr>
+                    <td data-label="S.No">Do</td>
+                    <td data-label="Name">I / you / we / they</td>
+                    <td data-label="Age">drive</td>
+                    <td data-label="Age">to the city on Mondays</td>
+
+                </tr>
+
+                <tr>
+                    <td data-label="S.No">Does</td>
+                    <td data-label="Name">he / she / it</td>
+                    <td data-label="Age">break down</td>
+                    <td data-label="Age">often</td>
+
+                </tr>
+
+
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
+        <ul style="margin-left: 50px;">
+            <li style="margin-bottom: 15px;"><b>When do</b> you <b>want</b> to meet me?</li>
+            <li style="margin-bottom: 15px;"><b>Why does</b> Beth always <b>complain</b> so much?</li>
+            <li style="margin-bottom: 15px;"><b>How much does</b> the <b>ticket</b> cost?</li>
+            <li style="margin-bottom: 15px;"><b>Why don’t</b> you ever <b>go</b> on vacation?</li>
+        </ul>
+        <br>
+        <br>
+        <h2><big>Tag Questions in the Present Simple</big></h2>
+        <br>
+        <p>Tag questions - jumla oxiridagi qisqa savollardir. Ular faqat siz gaplashayotgan odam nimani nazarda tutganingizni tushunganiga ishonch hosil qilish yoki aytganingizni ta'kidlash uchun ishlatiladi.</p>
+        <br>
+        <br>
+        <ul>
+            <li style="margin-left: 40px; margin-bottom: 17px;">John likes me, <b>doesn’t he?</b></li>
+            <li style="margin-left: 40px; margin-bottom: 17px;">All those girls speak French, <b>don’t they?</b></li>
+            <li style="margin-left: 80px; margin-bottom: 17px;">Keisha doesn’t speak Spanish, <b>does she</b></li>
+            <li style="margin-left: 80px; margin-bottom: 17px;">Those boys don’t play sports, <b>do they?</b></li>
+        </ul>
+        <br>
+        <p>Qoidaga ko'ra: Gap ijobiy bo'lsa, teg salbiy bo'ladi. <br> Gap salbiy bo'lsa, teg ijobiy bo'ladi.</p>
+        <br>
+        <br>
+        <h2><big>Exercises for the Present Simple</big></h2>
+        <br>
+        <p>Misollardagi kabi fe'lning to'g'ri shaklini to'ldiring.</p>
+        <br>
+        <br>
+        <ul>
+            <li style="margin-bottom: 15px;">Mark and Sara play squash twice a week. (play)</li>
+            <li style="margin-bottom: 15px;">Sheila doesn’t do the family accounts. (not do) Her husband does them.</li>
+            <li style="margin-bottom: 15px;">Does Gillian usually meet clients so late at night? (meet)</li>
+        </ul>
+        <br>
+        <br>
+        <ul>
+            <li style="margin-bottom: 50px;" class="lists">
+
+                <div class="div3 salom" style="">
+                    <p id="paf" class="media1" style="margin-bottom: 3px; padding: 8px; padding-right: 196px; "></p>
+                    <button onclick="but()" style="margin-left: 10px; background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);">Check
+                    </button>
+                </div>
+
+            </li>
+
+            <li style="margin-bottom: 50px;" class="lists">
+                <div class="div4 salom" style="flex-wrap: wrap;">
+                    <p id="paf2" class="media1" style="margin-bottom: 3px; padding: 8px; padding-right: 89px;"></p>
+                    <button onclick="but2()" style="margin-left: 10px; background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);    ">Check
+                    </button>
+                </div>
+
+            </li>
+
+            <li style="margin-bottom: 50px;" class="lists">
+                <div class="div5 salom" style="flex-wrap: wrap;">
+                    <p id="paf3" class="media2" style="margin-bottom: 3px; padding: 8px; padding-right: 319px;"></p>
+                    <button onclick="but3()" style="margin-left: 10px; background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);    ">Check
+                    </button>
+                </div>
+            </li>
+
+            <li style="margin-bottom: 50px;" class="lists">
+                <div class="div6 salom" style="flex-wrap: wrap;">
+                    <p id="paf4" class="media1" style="margin-bottom: 3px; padding: 8px; padding-right: 224px;"></p>
+                    <button onclick="but4()" style="margin-left: 10px; background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);    ">Check
+                    </button>
+                </div>
+            </li>
+
+            <li style="margin-bottom: 50px;" class="lists">
+                <div class="div7 salom" style="flex-wrap: wrap;">
+                    <p id="paf5" class="media1" style="margin-bottom: 3px; padding: 8px; padding-right: 179px;"></p>
+                    <button onclick="but5()" style="margin-left: 10px; background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);    ">Check
+                    </button>
+                </div>
+            </li>
+
+            <li style="margin-bottom: 50px;" class="lists">
+                <div class="div8 salom" style="flex-wrap: wrap;">
+                    <p id="paf6" class="media3" style="margin-bottom: 3px; padding: 8px; padding-right: 339px;"></p>
+                    <button onclick="but6()" style="margin-left: 10px; background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);    ">Check
+                    </button>
+                </div>
+            </li>
+
+            <li style="margin-bottom: 50px;" class="lists">
+                <div class="div9 salom" style="flex-wrap: wrap;">
+                    <p id="paf7" class="media3" style="margin-bottom: 3px; padding: 8px; padding-right: 346px;"></p>
+                    <button onclick="but7()" style="margin-left: 10px; background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);    ">Check
+                    </button>
+                </div>
+            </li>
+
+            <li style="margin-bottom: 50px;" class="lists">
+                <div class="div10 salom" style="flex-wrap: wrap;">
+                    <p id="paf8" class="media1" style="margin-bottom: 3px; padding: 8px; padding-right: 115px;"></p>
+                    <button onclick="but8()" style="margin-left: 10px; background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);    ">Check
+                    </button>
+                </div>
+            </li>
+
+            <li style="margin-bottom: 50px;" class="lists">
+                <div class="div11  salom" style="flex-wrap: wrap;">
+                    <p id="paf9" class="media1" style="margin-bottom: 3px; padding: 8px; padding-right: 51px;"></p>
+                    <button onclick="but9()" style="margin-left: 10px; background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);    ">Check</button>
+                </div>
+            </li>
+
+            <li style="margin-bottom: 50px;" class="lists">
+                <div class="div12 salom" style="flex-wrap: wrap;">
+                    <p id="paf10" class="media1" style="margin-bottom: 3px; padding: 8px;  padding-right: 70px;"></p>
+                    <button onclick="but10()" style="margin-left: 10px; background-color: #c700da !important; color: white; box-shadow: 0 2px 15px rgba(122, 0, 102, 0.7);    ">Check
+                    </button>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    <script>
+        var side = document.querySelector('.side')
+        var toggleBtn = document.getElementById('toggleBtn')
+        toggleBtn.addEventListener('click', () => {
+            side.classList.toggle('closed')
+        })
+    </script>
+
+    <script>
+        var loader = document.getElementById('ploding');
+        window.addEventListener('load', function() {
+            loader.style.display = 'none'
+        })
+    </script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
